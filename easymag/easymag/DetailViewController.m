@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "JSON/JSON.h"
 
 #import "RootViewController.h"
 
