@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B6657B213B9D85D00FA487B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6657B113B9D85D00FA487B /* UIKit.framework */; };
+		1B6657B413B9D85D00FA487B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6657B313B9D85D00FA487B /* Foundation.framework */; };
+		1B6657B613B9D85D00FA487B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B6657B513B9D85D00FA487B /* CoreGraphics.framework */; };
+		1B6657BC13B9D85D00FA487B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B6657BA13B9D85D00FA487B /* InfoPlist.strings */; };
+		1B6657BE13B9D85D00FA487B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6657BD13B9D85D00FA487B /* main.m */; };
+		1B6657C213B9D85D00FA487B /* easymagAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6657C113B9D85D00FA487B /* easymagAppDelegate.m */; };
+		1B6657C513B9D85D00FA487B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6657C413B9D85D00FA487B /* RootViewController.m */; };
+		1B6657C713B9D85D00FA487B /* DetailViewController.h in Resources */ = {isa = PBXBuildFile; fileRef = 1B6657C613B9D85D00FA487B /* DetailViewController.h */; };
+		1B6657C913B9D85D00FA487B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6657C813B9D85D00FA487B /* DetailViewController.m */; };
+		1B6657CC13B9D85D00FA487B /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B6657CA13B9D85D00FA487B /* RootViewController.xib */; };
+		1B6657CF13B9D85D00FA487B /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B6657CD13B9D85D00FA487B /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B6657AD13B9D85D00FA487B /* easymag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easymag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6657B113B9D85D00FA487B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B6657B313B9D85D00FA487B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B6657B513B9D85D00FA487B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B6657B913B9D85D00FA487B /* easymag-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "easymag-Info.plist"; sourceTree = "<group>"; };
+		1B6657BB13B9D85D00FA487B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B6657BD13B9D85D00FA487B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B6657BF13B9D85D00FA487B /* easymag-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "easymag-Prefix.pch"; sourceTree = "<group>"; };
+		1B6657C013B9D85D00FA487B /* easymagAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = easymagAppDelegate.h; sourceTree = "<group>"; };
+		1B6657C113B9D85D00FA487B /* easymagAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = easymagAppDelegate.m; sourceTree = "<group>"; };
+		1B6657C313B9D85D00FA487B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		1B6657C413B9D85D00FA487B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		1B6657C613B9D85D00FA487B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		1B6657C813B9D85D00FA487B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		1B6657CB13B9D85D00FA487B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		1B6657CE13B9D85D00FA487B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B6657AA13B9D85D00FA487B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6657B213B9D85D00FA487B /* UIKit.framework in Frameworks */,
+				1B6657B413B9D85D00FA487B /* Foundation.framework in Frameworks */,
+				1B6657B613B9D85D00FA487B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B6657A213B9D85C00FA487B = {
+			isa = PBXGroup;
+			children = (
+				1B6657B713B9D85D00FA487B /* easymag */,
+				1B6657B013B9D85D00FA487B /* Frameworks */,
+				1B6657AE13B9D85D00FA487B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B6657AE13B9D85D00FA487B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B6657AD13B9D85D00FA487B /* easymag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B6657B013B9D85D00FA487B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B6657B113B9D85D00FA487B /* UIKit.framework */,
+				1B6657B313B9D85D00FA487B /* Foundation.framework */,
+				1B6657B513B9D85D00FA487B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B6657B713B9D85D00FA487B /* easymag */ = {
+			isa = PBXGroup;
+			children = (
+				1B6657C013B9D85D00FA487B /* easymagAppDelegate.h */,
+				1B6657C113B9D85D00FA487B /* easymagAppDelegate.m */,
+				1B6657C313B9D85D00FA487B /* RootViewController.h */,
+				1B6657C413B9D85D00FA487B /* RootViewController.m */,
+				1B6657C613B9D85D00FA487B /* DetailViewController.h */,
+				1B6657C813B9D85D00FA487B /* DetailViewController.m */,
+				1B6657CA13B9D85D00FA487B /* RootViewController.xib */,
+				1B6657CD13B9D85D00FA487B /* DetailViewController.xib */,
+				1B6657B813B9D85D00FA487B /* Supporting Files */,
+			);
+			path = easymag;
+			sourceTree = "<group>";
+		};
+		1B6657B813B9D85D00FA487B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B6657B913B9D85D00FA487B /* easymag-Info.plist */,
+				1B6657BA13B9D85D00FA487B /* InfoPlist.strings */,
+				1B6657BD13B9D85D00FA487B /* main.m */,
+				1B6657BF13B9D85D00FA487B /* easymag-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B6657AC13B9D85D00FA487B /* easymag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B6657D213B9D85D00FA487B /* Build configuration list for PBXNativeTarget "easymag" */;
+			buildPhases = (
+				1B6657A913B9D85D00FA487B /* Sources */,
+				1B6657AA13B9D85D00FA487B /* Frameworks */,
+				1B6657AB13B9D85D00FA487B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = easymag;
+			productName = easymag;
+			productReference = 1B6657AD13B9D85D00FA487B /* easymag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B6657A413B9D85C00FA487B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Alper Tayfun";
+			};
+			buildConfigurationList = 1B6657A713B9D85C00FA487B /* Build configuration list for PBXProject "easymag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B6657A213B9D85C00FA487B;
+			productRefGroup = 1B6657AE13B9D85D00FA487B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B6657AC13B9D85D00FA487B /* easymag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B6657AB13B9D85D00FA487B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6657BC13B9D85D00FA487B /* InfoPlist.strings in Resources */,
+				1B6657C713B9D85D00FA487B /* DetailViewController.h in Resources */,
+				1B6657CC13B9D85D00FA487B /* RootViewController.xib in Resources */,
+				1B6657CF13B9D85D00FA487B /* DetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B6657A913B9D85D00FA487B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6657BE13B9D85D00FA487B /* main.m in Sources */,
+				1B6657C213B9D85D00FA487B /* easymagAppDelegate.m in Sources */,
+				1B6657C513B9D85D00FA487B /* RootViewController.m in Sources */,
+				1B6657C913B9D85D00FA487B /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1B6657BA13B9D85D00FA487B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B6657BB13B9D85D00FA487B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B6657CA13B9D85D00FA487B /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B6657CB13B9D85D00FA487B /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		1B6657CD13B9D85D00FA487B /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B6657CE13B9D85D00FA487B /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B6657D013B9D85D00FA487B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1B6657D113B9D85D00FA487B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B6657D313B9D85D00FA487B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easymag/easymag-Prefix.pch";
+				INFOPLIST_FILE = "easymag/easymag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B6657D413B9D85D00FA487B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easymag/easymag-Prefix.pch";
+				INFOPLIST_FILE = "easymag/easymag-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B6657A713B9D85C00FA487B /* Build configuration list for PBXProject "easymag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6657D013B9D85D00FA487B /* Debug */,
+				1B6657D113B9D85D00FA487B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B6657D213B9D85D00FA487B /* Build configuration list for PBXNativeTarget "easymag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6657D313B9D85D00FA487B /* Debug */,
+				1B6657D413B9D85D00FA487B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B6657A413B9D85C00FA487B /* Project object */;
+}
